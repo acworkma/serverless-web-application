@@ -13,11 +13,11 @@ on:
       APP_NAME_PREFIX: 
         description: 'Prefix to be used in naming Azure resources'
         required: true
-        default: 'ewwav2'
+        default: 'ewwav3'
       RESOURCE_GROUP_NAME: 
         description: 'Resource Group to deploy Azure resources'
         required: true
-        default: 'ewwav2-dev-rg'
+        default: 'ewwav3-dev-rg'
       MSI_NAME: 
         description: 'User Managed Identity'
         required: true
