@@ -66,7 +66,7 @@ jobs:
       with:
         # Azure CLI version to be used to execute the script. If not provided, latest version is used
         # changing to see if it will run azcliversion: 2.27.2
-        azcliversion: 2.29.2
+        # azcliversion: 2.29.2
         # Specify the script here
         inlineScript: |
           az group create -l ${{ env.AZURE_REGION }} -n ${{ env.RESOURCE_GROUP_NAME }}
